@@ -1,0 +1,5 @@
+Options FollowSymLinks
+RewriteEngine On
+
+RewriteRule "^(\?.*)?$" "version_controller.php" [END,QSA]
+RewriteRule "^([^?]*)(\?.*)?$" "version_controller.php?path=$1" [END,QSA]
