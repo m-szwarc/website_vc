@@ -2,8 +2,8 @@
 PHP script that makes switching versions of webpage easy.  
 The provided code allows you to decide which website version to choose simply by defining appropriate constant. I have provided you with template needed to write full system based on database data - only thing to do is to add code fetching data from your DB. Already written code checks for any missing files or inexistant versions.
 # License
-Code is provided with GNU GPLv3 license. Feel free to modify and redistribute it!  
-For full license text, look at LICENCE.md
+Code is provided with GNU GPLv3 license. Feel free to modify and redistribute the project!  
+For full license text, go to LICENSE file
 # Preparing VC to use
 Code available on GitHub is already configured for a simple use scenario. You can simply copy all your website files to `versions` subdirectory. And voilà!
 ## Where to put my website files?
@@ -61,5 +61,5 @@ Returns: Whether the keypair is valid for use (eg. unique)
 # Used libraries
 * *Random Compatibility Library* by Paragon Initiative Enterprises (https://github.com/paragonie/random_compat/)
 - - -
-*Website Version Controller*
+*Website Version Controller*  
 Copyright 2018, Marcin Szwarc
